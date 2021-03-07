@@ -1,0 +1,6 @@
+.menuItem a{
+    font-size: larger;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
