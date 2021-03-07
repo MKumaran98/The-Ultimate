@@ -1,0 +1,55 @@
+.email_link {
+  color: #fa9141;
+  border: 1px solid #fa9141;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email_link:hover {
+  background-color: #fa914134;
+}
+
+.main_sec {
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.mainSectionTypography{
+  margin-left: 18rem;
+}
+
+.big_heading {
+  margin: 0;
+  font-weight: 900;
+  font-size: xxx-large;
+  letter-spacing: 5px;
+}
+
+.subTitle{
+  color: #fa9141;
+  font-size: xx-large;
+}
+
+.typography {
+  max-width: 500px;
+  margin-top: 20px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width:700px){
+  
+  .mainSectionTypography{
+    margin-left: 3rem;
+  }
+}

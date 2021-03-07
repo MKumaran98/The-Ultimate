@@ -1,0 +1,31 @@
+.navigationItemsDesktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    list-style: none;
+}
+
+.navButton a{
+    color: #969696;
+    cursor: pointer;
+    animation-name: fadeIn;
+    animation-duration: 1500ms;
+    text-decoration: none;
+}
+
+.activeDesktop{
+    border-bottom: 2px solid #FA9141;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
+ @media (max-width:700px){
+    .navigationItemsDesktop{
+        display: none;
+    }
+}
