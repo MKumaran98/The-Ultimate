@@ -1,0 +1,27 @@
+.sectionHeading{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white
+}
+
+.headingLine{
+    width: 90%;
+    border:1px solid white;
+}
+
+.sectioHeadingText{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width:700px){
+    .sectionHeading{
+        width: 100%;
+    }
+    .headingLine{
+        display: none;
+    }
+}
