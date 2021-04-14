@@ -50,7 +50,7 @@ const about=(props)=>{
                             MongoDB
                         </li>
                         <li>
-                            AngularJS
+                            Angular
                         </li>
                         <li>
                             Typescript

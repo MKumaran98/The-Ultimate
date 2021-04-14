@@ -1,10 +1,8 @@
 import classes from './socialicons.module.css';
 import github from './icons/github.svg';
-import twitter from './icons/twitter.svg';
-import instagram from './icons/instagram.svg';
 import codesand from './icons/codesandbox.svg';
 import linkd from './icons/linkedin.svg';
-
+import email from './icons/email.svg'
 
 
 const Socialicons=(props)=>{
@@ -13,24 +11,27 @@ const Socialicons=(props)=>{
       
     <ul className={classes.iList}>
         <li className={classes.icon}>
+          <a href="https://github.com/KumaranSahi" target="_blank" rel="noreferrer">
             <img src={github} alt=""/>
-            </li>
+          </a>
+        </li>
 
-            <li className={classes.icon}>
-            <img src={twitter} alt=""/>
-            </li>
-
-            <li className={classes.icon}>
-            <img src={instagram} alt=""/>
-            </li>
-
-            <li className={classes.icon}>
+        <li className={classes.icon}>
+          <a href="https://codesandbox.io/u/KumaranSahi" target="_blank" rel="noreferrer">
             <img src={codesand} alt=""/>
-            </li>
+          </a>
+        </li>
 
-            <li className={classes.icon}>
+        <li className={classes.icon}>
+          <a href="https://www.linkedin.com/in/muthu-kumaran-760735184/" target="_blank" rel="noreferrer">
             <img src={linkd} alt=""/>
-            </li>
+          </a>
+        </li>
+        <li>
+          <a href="mailto: muthu101kumaran@gmail.com" className={classes.email_link} target="_blank" rel="noreferrer">
+            <img src={email} alt=""/>
+          </a>
+        </li>
     </ul>
     
   </div>
