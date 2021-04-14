@@ -1,4 +1,4 @@
-.navigationItemsDesktop{
+.navigation-items-desktop{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -6,16 +6,16 @@
     list-style: none;
 }
 
-.navButton a{
-    color: #969696;
+.nav-button a{
+    color:var(--neutral);
     cursor: pointer;
     animation-name: fadeIn;
     animation-duration: 1500ms;
     text-decoration: none;
 }
 
-.activeDesktop{
-    border-bottom: 2px solid #FA9141;
+.active-desktop{
+    border-bottom: 2px solid var(--primary);
 }
 
 
@@ -25,7 +25,7 @@
  } 
 
  @media (max-width:700px){
-    .navigationItemsDesktop{
+    .navigation-items-desktop{
         display: none;
     }
 }

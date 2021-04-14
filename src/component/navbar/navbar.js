@@ -5,7 +5,7 @@ import DesktopNavMenu from './DesktopNavMenu/DesktopNavMenu'
 
 const navbar=()=>{
     return(
-        <nav className={classes.navbar}>
+        <nav className={classes["navbar"]}>
             <Logo/>
             <DesktopNavMenu/>
             <Hamburger/>

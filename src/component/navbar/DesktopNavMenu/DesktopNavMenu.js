@@ -3,35 +3,35 @@ import {NavLink} from 'react-router-dom'
 
 const desktopNavMenu=()=>{
     return(
-        <ul className={classes.navigationItemsDesktop}>
-                <li className={classes.navButton} >
+        <ul className={classes["navigation-items-desktop"]}>
+                <li className={classes["nav-button"]} >
                     <NavLink
                         to="/" exact
-                        activeClassName={classes.activeDesktop}
+                        activeClassName={classes["active-desktop"]}
                     >
                         Home
                     </NavLink>
                 </li>
-                <li className={classes.navButton}>
+                <li className={classes["nav-button"]}>
                     <NavLink
                         to="/about"
-                        activeClassName={classes.activeDesktop}
+                        activeClassName={classes["active-desktop"]}
                     >
                         About
                     </NavLink>
                 </li>
-                <li className={classes.navButton}>
+                <li className={classes["nav-button"]}>
                     <NavLink
                         to="/projects"
-                        activeClassName={classes.activeDesktop}
+                        activeClassName={classes["active-desktop"]}
                     >
                         Projects
                     </NavLink>
                 </li>
-                <li className={classes.navButton}>
+                <li className={classes["nav-button"]}>
                     <NavLink
                         to="/blogs"
-                        activeClassName={classes.activeDesktop}
+                        activeClassName={classes["active-desktop"]}
                     >
                         Blogs
                     </NavLink>

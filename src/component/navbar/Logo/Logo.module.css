@@ -1,8 +1,8 @@
 .logo{
-    width: 70px;
-    height: 70px;
-    margin-top: 5px;
-    margin-left: 5px;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top:0.4rem;
+    margin-left: 0.5rem;
     animation-name: fadeIn;
     animation-duration: 1500ms;
 }

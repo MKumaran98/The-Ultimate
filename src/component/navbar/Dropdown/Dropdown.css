@@ -1,7 +1,7 @@
-.dropdownMenu{
+.dropdown-menu{
     position: fixed;
-    top: 70px;
-    right:0px;
+    top: 4rem;
+    right:0;
     width: 100%;
     height: 90%;
     background-color: #fa9141;

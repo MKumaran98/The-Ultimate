@@ -1,8 +1,7 @@
-import React from 'react';
 import DropdownItem from './DropdownItem/DropdownItem'
 import classes from './DropdownItems.module.css'
 
-const DropdownItems=(props)=>{
+const DropdownItems=()=>{
     const items=[
         "home",
         "about",
@@ -11,7 +10,7 @@ const DropdownItems=(props)=>{
     ]
     
     return(
-        <ul className={classes.dropdownList}>
+        <ul className={classes["dropdown-list"]}>
             {
                 items.map(item=>(<DropdownItem
                     key={item}
