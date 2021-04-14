@@ -1,7 +1,7 @@
 import classes from './DesktopNavMenu.module.css'
 import {NavLink} from 'react-router-dom'
 
-const desktopNavMenu=(props)=>{
+const desktopNavMenu=()=>{
     return(
         <ul className={classes.navigationItemsDesktop}>
                 <li className={classes.navButton} >
