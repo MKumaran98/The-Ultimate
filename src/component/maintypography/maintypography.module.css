@@ -1,18 +1,18 @@
-.email_link {
-  color: #fa9141;
-  border: 1px solid #fa9141;
-  border-radius: 4px;
+.email-link {
+  color: var(--primary);
+  border: 0.2rem solid var(--primary);
+  border-radius: 0.5rem;
   padding: 1.25rem 1.75rem;
-  font-size: 14px;
+  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 
 .email_link:hover {
-  background-color: #fa914134;
+  background-color: var(--primary-mild);
 }
 
-.main_sec {
+.main-section {
   display: flex;
   color: white;
   -webkit-box-pack: center;
@@ -23,33 +23,32 @@
   width: 100%;
 }
 
-.mainSectionTypography{
+.main-section-typography{
   margin-left: 18rem;
 }
 
-.big_heading {
+.big-heading {
   margin: 0;
   font-weight: 900;
   font-size: xxx-large;
-  letter-spacing: 5px;
+  letter-spacing: 0.3rem;
 }
 
-.subTitle{
-  color: #fa9141;
+.sub-title{
+  color: var(--primary);
   font-size: xx-large;
 }
 
 .typography {
-  max-width: 500px;
-  margin-top: 20px;
-  line-height: 25px;
-  margin-bottom: 50px;
+  max-width: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 
 @media (max-width:700px){
   
-  .mainSectionTypography{
+  .main-section-typography{
     margin-left: 3rem;
   }
 }
