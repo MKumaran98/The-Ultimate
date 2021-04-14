@@ -1,52 +1,85 @@
-import React from 'react';
 import classes from './projectContainer.module.css';
 
-const ProjectContainer=(props)=>{
+const ProjectContainer=({name,description,techologiesUsed,image,github,live,evenPosition})=>{
     return(
-        <div className={classes.ProjectContainer}>
-            {props.evenPosition?
-                <React.Fragment>
-                    <div className={classes.description}>
-                    <h2 className={`${classes.heading} ${classes.evenHeading}`}>{props.name}</h2>
-                    <div className={classes.textDescription}>
-                        <p>{props.description}</p>
+        <div className={classes["project-container"]}>
+            {evenPosition?
+                <>
+                    <div className={classes["description"]}>
+                    <h2 className={`${classes["heading"]} ${classes["even-heading"]}`}>{name}</h2>
+                    <div className={classes["text-description"]}>
+                        <p>{description}</p>
+                        <h3>
+                            Built with:
+                        </h3>
+                        <ul>
+                            {
+                                techologiesUsed.map(item=><li key={item+Math.random()}>
+                                    {item}
+                                </li>)
+                            }
+                        </ul>
                     </div>
-                    <div className={`${classes.linksContainer} ${classes.evenLinks}`}>
-                        <a href={props.github} target="_blank" rel="noreferrer" className={classes.links}>Go to Github</a>
-                        <a href={props.live} target="_blank" rel="noreferrer" className={classes.links}>Live Site</a>
+                    <div className={`${classes["links-container"]} ${classes["even-links"]}`}>
+                        <a href={github} target="_blank" rel="noreferrer" className={classes["links"]}>Go to Github</a>
+                        <a href={live} target="_blank" rel="noreferrer" className={classes["links"]}>Live Site</a>
                     </div>
                     </div>
                     <img 
-                        src={props.image}
+                        src={image}
                         alt="project"
-                        className={classes.screenShot}/>
-                </React.Fragment>
+                        className={classes["screenshot-desktop"]}/>
+                </>
                 :
-                <React.Fragment>
+                <>
                     <img 
-                        src={props.image}
+                        src={image}
                         alt="project"
-                        className={classes.screenShot}/>
-                    <div className={classes.description}>
-                        <h2 className={classes.heading}>{props.name}</h2>
-                        <div className={classes.textDescription} >
-                            <p>{props.description}</p>
+                        className={classes["screenshot-desktop"]}/>
+                    <div className={classes["description"]}>
+                        <h2 className={classes["heading"]}>{name}</h2>
+                        <div className={classes["text-description"]} >
+                            <p>{description}</p>
+                            <h3>
+                                Built with:
+                            </h3>
+                            <ul>
+                            {
+                                techologiesUsed.map(item=><li key={item+Math.random()}>
+                                    {item}
+                                </li>)
+                            }
+                            </ul>
                         </div>
-                        <div className={classes.linksContainer}>
-                        <a href={props.github} target="_blank" rel="noreferrer" className={classes.links}>Go to Github!</a>
-                        <a href={props.live} target="_blank" rel="noreferrer"  className={classes.links}>Live Site</a>
+                        <div className={classes["links-container"]}>
+                        <a href={github} target="_blank" rel="noreferrer" className={classes["links"]}>Go to Github!</a>
+                        <a href={live} target="_blank" rel="noreferrer"  className={classes["links"]}>Live Site</a>
                         </div>
                     </div>
-                </React.Fragment>           
+                </>           
                 }
-            <div className={classes.mobileDescription}>
-                <h2 className={classes.heading}>{props.name}</h2>
-                <div className={classes.textDescription}>
-                    <p>{props.description}</p>
+            <div className={classes["mobile-description"]}>
+                <h2 className={classes["heading"]}>{name}</h2>
+                <img 
+                    src={image}
+                    alt="project"
+                    className={classes["screenshot-mobile"]}/>
+                <div className={classes["text-description"]}>
+                    <p>{description}</p>
+                    <h3>
+                        Built with:
+                    </h3>
+                    <ul>
+                        {
+                            techologiesUsed.map(item=><li key={item+Math.random()}>
+                                {item}
+                            </li>)
+                        }
+                    </ul>
                 </div>
-                <div className={classes.linksContainer}>
-                    <a href={props.github} target="_blank" rel="noreferrer" className={classes.links}>Go to Github!</a>
-                    <a href={props.live} target="_blank" rel="noreferrer" className={classes.links}>Live Site</a>
+                <div className={classes["links-container"]}>
+                    <a href={github} target="_blank" rel="noreferrer" className={classes["links"]}>Go to Github!</a>
+                    <a href={live} target="_blank" rel="noreferrer" className={classes["links"]}>Live Site</a>
                 </div>
             </div>
             
