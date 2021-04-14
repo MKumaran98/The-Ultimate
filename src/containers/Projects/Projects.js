@@ -6,7 +6,7 @@ const Project=()=>{
     return(
         <div>
             <SectionHeading>My Projects</SectionHeading>
-            <ul>
+            <ul style={{marginBottom:"0"}}>
                 {
                     ProjectData.map(({name,description,techologiesUsed,image,github,live},index)=>(
                         <li>

@@ -7,8 +7,7 @@ const DropdownItems=(props)=>{
         "home",
         "about",
         "projects",
-        "blogs",
-        "contact"
+        "blogs"
     ]
     
     return(

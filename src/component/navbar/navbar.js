@@ -3,7 +3,7 @@ import Logo from './Logo/Logo'
 import Hamburger from './Hamburger/Hamburger'
 import DesktopNavMenu from './DesktopNavMenu/DesktopNavMenu'
 
-const navbar=(props)=>{
+const navbar=()=>{
     return(
         <nav className={classes.navbar}>
             <Logo/>

@@ -36,14 +36,6 @@ const desktopNavMenu=()=>{
                         Blogs
                     </NavLink>
                 </li>
-                <li className={classes.navButton}>
-                    <NavLink
-                        to="/contacts"
-                        activeClassName={classes.activeDesktop}
-                    >
-                        Contacts
-                    </NavLink>
-                </li>
             </ul>
     )
 }

@@ -27,8 +27,8 @@ const Socialicons=(props)=>{
             <img src={linkd} alt=""/>
           </a>
         </li>
-        <li>
-          <a href="mailto: muthu101kumaran@gmail.com" className={classes.email_link} target="_blank" rel="noreferrer">
+        <li className={classes.icon}>
+          <a href="mailto: muthu101kumaran@gmail.com" target="_blank" rel="noreferrer">
             <img src={email} alt=""/>
           </a>
         </li>
