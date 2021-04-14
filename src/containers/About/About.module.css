@@ -1,4 +1,4 @@
-.aboutContainer{
+.about-container{
     width: 80%;
     height: 100%;
     margin: auto;
@@ -10,7 +10,10 @@
 
 .description{
     width: 60%;
-    margin-top: 5rem;
+}
+
+.description p,.skills{
+    font-size: 1.3rem;
 }
 
 .skills{
@@ -19,12 +22,12 @@
     margin: auto;
 }
 
-.competencyListContainer{
+.competency-list-container{
     width:70%;
     margin:auto;
 }
 
-.competencyList{
+.competency-list{
     list-style-type: circle;
     display: inline-block;
     vertical-align: top;
@@ -35,5 +38,6 @@
 @media (max-width:700px){
     .description{
         width: 100%;
+        margin-top: 5rem;
     }
 }

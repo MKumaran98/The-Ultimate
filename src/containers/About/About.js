@@ -2,12 +2,12 @@ import SectionHeading from '../../component/sectionHeading/sectionHeading'
 import classes from './About.module.css'
 import ProfileImage from './ProfileImage/ProfileImage'
 
-const about=(props)=>{
+const about=()=>{
     return(
         <div>
             <SectionHeading>About Me</SectionHeading>
-            <div className={classes.aboutContainer}>
-                <div className={classes.description}>
+            <div className={classes["about-container"]}>
+                <div className={classes["description"]}>
                     <p>
                         Hey, I'm Kumaran, A Fullstack developer with a love for problem-solving.
                     </p>
@@ -16,19 +16,19 @@ const about=(props)=>{
                         and I like to get my hands dirty with design from time to time. 
                     </p>
                     <p>
-                        I graduated from SASTRA University where I majored in Computer Science and Engineering 
+                        I graduated from SASTRA University majoring in Computer Science and Engineering 
                         and currently I'm working as a contractor for PwC in TCS. 
                         My role is that of a frontend developer. 
                     </p>
                 </div>                
                 <ProfileImage/>
             </div>
-            <div className={classes.skills}>
+            <div className={classes["skills"]}>
                 <p>
                     Some of my key competencies are:
                 </p>
-                <div className={classes.competencyListContainer}>
-                    <ul className={classes.competencyList}>
+                <div className={classes["competency-list-container"]}>
+                    <ul className={classes["competency-list"]}>
                         <li>
                             Javascript(ES6)
                         </li>
@@ -42,7 +42,7 @@ const about=(props)=>{
                             NodeJS
                         </li>
                     </ul>
-                    <ul className={classes.competencyList}>
+                    <ul className={classes["competency-list"]}>
                         <li>
                             ExpressJS
                         </li>

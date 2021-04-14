@@ -2,7 +2,7 @@
     width: 15rem;
     height: 15rem;
     margin-top: 2rem;
-    border: 2px solid #fa9141;
+    border: 0.2rem solid var(--primary);
     border-radius: 0.5rem;
 }
 
