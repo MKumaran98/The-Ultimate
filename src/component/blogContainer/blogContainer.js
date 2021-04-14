@@ -1,22 +1,22 @@
 import classes from './blogContainer.module.css'
 
-const blogContainer=(props)=>{
+const blogContainer=({name,image,description,link})=>{
     return(
         <div className={classes.card}>
                 <div className={classes.cardImg}>
-                    <img className={classes.cardimage} src="https://unsplash.it/800/600?image=59" alt="blog-img"/>
+                    <img className={classes.cardimage} src={image} alt="blog-img"/>
                 </div>
                 <div className={classes.cardContent}>
                     <div className={classes.cardTitle}>
-                    <h4 className={classes.greytxt}>Time to Have More Fun</h4>
+                    <h4 className={classes.greytxt}>{name}</h4>
                     </div>
                     <div className={classes.cardText}>
-                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS </p>
+                    <p>{description}</p>
                     </div>
                     <div className={classes.blogiconcontainer}>
-                        <span className={classes.readMoreText}>
+                        <a href={link} className={classes.readMoreText}>
                             Read More
-                        </span>
+                        </a>
                     </div>
                 </div>
             </div>

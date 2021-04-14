@@ -1,6 +1,6 @@
 export const ProjectData=[{
     name:"Pixmart",
-    description:"An ecommerce app built to cater to photography enthusiast",
+    description:"An e-commerce app built to cater to photography enthusiast",
     techologiesUsed:["React hooks", "React router", "Context API", "MirageJS"],
     image:"https://res.cloudinary.com/docpuxue8/image/upload/v1618394371/Portfolio/Pixmart_vx0f7f.jpg",
     github:"https://github.com/KumaranSahi/pixmart-review",

@@ -9,7 +9,9 @@ const Project=()=>{
             <ul>
                 {
                     ProjectData.map(({name,description,techologiesUsed,image,github,live},index)=>(
-                        <li>
+                        <li
+                            key={index}
+                        >
                             <ProjectContainer
                                 name={name}
                                 description={description}
