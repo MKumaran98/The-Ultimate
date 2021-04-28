@@ -1,14 +1,14 @@
 export const ProjectData=[{
     name:"Pixmart",
     description:"An ecommerce app built to cater to photography enthusiast",
-    techologiesUsed:["React hooks", "React router", "Context API", "MirageJS"],
+    techologiesUsed:["React hooks", "React router", "Context API", "ExpressJS", "MongoDB", "PassportJS"],
     image:"https://res.cloudinary.com/docpuxue8/image/upload/v1618394371/Portfolio/Pixmart_vx0f7f.jpg",
     github:"https://github.com/KumaranSahi/pixmart-review",
     live:"https://pixmart.netlify.app/"
 },{
     name:"Pixweb",
     description:"A video library to help beginners master the art of photography",
-    techologiesUsed:["React hooks", "React router", "Context API", "MirageJS"],
+    techologiesUsed:["React hooks", "React router", "Context API", "ExpressJS", "MongoDB", "PassportJS"],
     image:"https://res.cloudinary.com/docpuxue8/image/upload/v1618394559/Portfolio/Pixweb_wt12tq.jpg",
     github:"https://github.com/KumaranSahi/pixweb",
     live:"https://pixweb.netlify.app/"
