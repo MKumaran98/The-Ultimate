@@ -1,5 +1,5 @@
 import classes from "./profileImage.module.css";
-import image from "../../../assets/IMG_5214.jpg";
+import image from "../../../assets/profileImage.jpg";
 
 const ProfileImage = () => {
   return (

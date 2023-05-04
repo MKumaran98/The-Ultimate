@@ -1,7 +1,7 @@
 import classes from "./dropdownItems.module.css";
 import DropdownItem from "./DropdownItem/DropdownItem";
 
-const items = ["home", "about", "work experience", "blogs"];
+const items = ["home", "about", "experience", "blogs"];
 const DropdownItems = () => {
   return (
     <ul className={classes["dropdown-list"]}>
