@@ -13,18 +13,31 @@ const about = () => {
             problem-solving.
           </p>
           <p>
-            I enjoy learning new things and perfecting my craft. I love working
-            in javascript and I like to get my hands dirty with design from time
-            to time.
+            I enjoy constantly learning and perfecting my craft, with a
+            particular passion for Javascript. I also enjoy getting creative
+            with design from time to time.
           </p>
           <p>
-            Outside of work I'm an avid rider and I'm always on the look out for
-            the next fun adventure
+            As a computer science and engineering major at SASTRA University, I
+            found the journey exhilarating, from late-night coding sessions to
+            conquering tough algorithms. Graduating and receiving my degree was
+            a proud moment.
           </p>
           <p>
-            I graduated from SASTRA University with a major in Computer Science
-            and Engineering. Currently, I am working as a Frontend Engineer at
-            Unacademy, primarily focusing on the in-house CRM system.
+            Now, I'm a frontend engineer at the fast-growing educational tech
+            company, Unacademy. Working with the revenue and internal tools
+            team, I use my skills to create impactful user experiences. It's a
+            thrilling experience to be part of a company that's revolutionizing
+            education, and I'm excited to see what the future holds.
+          </p>
+          <p>
+            One of my greatest passions outside of work is hitting the open road
+            on my motorcycle and seeking out thrilling new adventures. Whether
+            I'm cruising down scenic routes or tackling challenging off-road
+            terrain, the rush of adrenaline that comes with pushing myself to
+            new limits is what keeps me coming back for more. Life is too short
+            to be bored, which is why I'm always on the lookout for my next big
+            adventure.
           </p>
         </div>
         <ProfileImage />
