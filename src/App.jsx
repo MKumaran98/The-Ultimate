@@ -1,5 +1,5 @@
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar/Navbar";
 import Home from "./containers/Home/Home";
 import Projects from "./containers/WorkExprience/WorkExp";
@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       <Navbar />
       <main className="main-section">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/work-exp" component={Projects} />
-          <Route exact path="/blogs" component={Blogs} />
-          <Route exact path="/about" component={About} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/work-exp" element={<Projects />} />
+          <Route exact path="/blogs" element={<Blogs />} />
+          <Route exact path="/about" element={<About />} />
+        </Routes>
       </main>
       <SocialIcons />
     </div>
