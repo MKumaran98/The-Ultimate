@@ -1,26 +1,47 @@
-import classes from "./DesktopNavMenu.module.css";
+import classes from "./desktopNavMenu.module.css";
 import { NavLink } from "react-router-dom";
 
 const desktopNavMenu = () => {
   return (
     <ul className={classes["navigation-items-desktop"]}>
       <li className={classes["nav-button"]}>
-        <NavLink to="/" exact activeClassName={classes["active-desktop"]}>
+        <NavLink
+          to="/"
+          exact
+          className={({ isActive }) =>
+            isActive ? classes["active-desktop"] : ""
+          }
+        >
           Home
         </NavLink>
       </li>
       <li className={classes["nav-button"]}>
-        <NavLink to="/about" activeClassName={classes["active-desktop"]}>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? classes["active-desktop"] : ""
+          }
+        >
           About
         </NavLink>
       </li>
       <li className={classes["nav-button"]}>
-        <NavLink to="/work-exp" activeClassName={classes["active-desktop"]}>
+        <NavLink
+          to="/work-exp"
+          className={({ isActive }) =>
+            isActive ? classes["active-desktop"] : ""
+          }
+        >
           Work experience
         </NavLink>
       </li>
       <li className={classes["nav-button"]}>
-        <NavLink to="/blogs" activeClassName={classes["active-desktop"]}>
+        <NavLink
+          to="/blogs"
+          className={({ isActive }) =>
+            isActive ? classes["active-desktop"] : ""
+          }
+        >
           Blogs
         </NavLink>
       </li>
