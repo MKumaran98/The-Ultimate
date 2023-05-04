@@ -1,4 +1,4 @@
-import "./Dropdown.css";
+import "./dropdown.css";
 import { CSSTransition } from "react-transition-group";
 import DropdownItems from "./DropdownItems/DropdownItems";
 

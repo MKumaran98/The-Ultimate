@@ -1,8 +1,8 @@
-import classes from "./Hamburger.module.css";
-import React, { useState } from "react";
+import classes from "./hamburger.module.css";
+import { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 
-const hamburger = React.memo(() => {
+const Hamburger = () => {
   const [iconClicked, seticonClicked] = useState(false);
 
   let lineOne = classes["hamburger-line"];
@@ -28,6 +28,6 @@ const hamburger = React.memo(() => {
       <Dropdown open={iconClicked} />
     </div>
   );
-});
+};
 
-export default hamburger;
+export default Hamburger;

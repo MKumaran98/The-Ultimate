@@ -1,4 +1,4 @@
-import classes from "./DropdownItems.module.css";
+import classes from "./dropdownItems.module.css";
 import DropdownItem from "./DropdownItem/DropdownItem";
 
 const items = ["home", "about", "work experience", "blogs"];

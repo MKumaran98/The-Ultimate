@@ -1,5 +1,5 @@
-import image from '../../../Assets/Logo/mk logo finD.png'
-import classes from './Logo.module.css'
+import image from '../../../assets/Logo/mk logo finD.png'
+import classes from './logo.module.css'
 import {Link} from 'react-router-dom'
 
 const logo=()=>{
