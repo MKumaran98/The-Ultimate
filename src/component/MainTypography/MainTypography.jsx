@@ -6,7 +6,7 @@ const MainSection = () => {
       <div className={classes["main-section-typography"]}>
         <h1>Hi, I'm</h1>
         <h2 className={classes["big-heading"]}>Muthu Kumaran.</h2>
-        <h3 className={classes["sub-title"]}>And I love making stuff!</h3>
+        <h3 className={classes["sub-title"]}>And I enjoy making interesting stuff!</h3>
         <p className={classes["typography"]}>
           I'm a developer based in India specializing in building exceptional
           webapps.
