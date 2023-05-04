@@ -1,0 +1,23 @@
+.main-list {
+  list-style-type: circle;
+}
+
+.list-items {
+  color: white;
+}
+
+.time-line-desktop {
+  display: block;
+}
+.time-line-mobile {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .time-line-desktop {
+    display: none;
+  }
+  .time-line-mobile {
+    display: block;
+  }
+}

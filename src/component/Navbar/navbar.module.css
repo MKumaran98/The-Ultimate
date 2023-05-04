@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  z-index: 100000;
 }
 
 @media (max-width: 700px) {

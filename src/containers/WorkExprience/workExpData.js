@@ -1,89 +1,55 @@
-export const ProjectData = [
+import sastraLogo from "../../assets/sastraLogo.webp";
+import tcsLogo from "../../assets/TCSLogo.png";
+import unacademyLogo from "../../assets/unacademyLogo.webp";
+
+const imageStyle = {
+  width: "56px",
+  height: "56px",
+  borderRadius: "50%",
+  background: "white",
+};
+
+export const experienceData = [
   {
-    name: "Pixmart",
-    description: "An ecommerce app built to cater to photography enthusiast",
-    techologiesUsed: [
-      "React hooks",
-      "React router",
-      "Context API",
-      "ExpressJS",
-      "MongoDB",
-      "PassportJS",
+    heading: "SASTRA University",
+    subheading: "Did my Bachelor's degree in Computer Science and Engineering",
+    icon: <img src={sastraLogo} alt="SASTRA" style={imageStyle} />,
+    timeline: "2016-2020",
+    points: [
+      "Learnt the basics of programming and DSA",
+      "Started my fullstack journey by learning MERN stack and developed a lot of mini projects.",
+      "Participated in various Hackathons.",
+      "Placed in the top 1000 in Hackwithinfy(among more than 3 lakh total participants).",
+      "Active participant in the college photography club.",
+      "Active participant in the NSS chapter of our college",
     ],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618394371/Portfolio/Pixmart_vx0f7f.jpg",
-    github: "https://github.com/KumaranSahi/pixmart-review",
-    live: "https://pixmart.netlify.app/",
   },
   {
-    name: "Pixweb",
-    description:
-      "A video library to help beginners master the art of photography",
-    techologiesUsed: [
-      "React hooks",
-      "React router",
-      "Context API",
-      "ExpressJS",
-      "MongoDB",
-      "PassportJS",
+    heading: "TCS",
+    subheading: "Frontend engineer working as a contractor for PWC",
+    icon: <img src={tcsLogo} alt="TCS" style={imageStyle} />,
+    timeline: "Nov 2020 - Oct 2021",
+    points: [
+      "Built UI using Angular9 and Typescript for an application used by the audit teams for one of the big four audit firms.",
+      "Worked in agile and participated in sprint ceremonies as a development team member.",
+      "Collaborated with dev team members to come up a various design outputs which would reduce the effort on the part of the audit teams and make filling audit findings easier.",
+      "This application is currently being used in the North American geography",
+      "Technologies used: Angular9, Typescript",
     ],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618394559/Portfolio/Pixweb_wt12tq.jpg",
-    github: "https://github.com/KumaranSahi/pixweb",
-    live: "https://pixweb.netlify.app/",
   },
   {
-    name: "Iterative UI",
-    description:
-      "Iterative UI is a custom lightweight CSS component libray built with React.",
-    techologiesUsed: ["React hooks", "React router"],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618394723/Portfolio/iterative_UI_razx7d.jpg",
-    github: "https://github.com/KumaranSahi/Iterative-UI",
-    live: "https://iterative-ui.netlify.app/",
-  },
-  {
-    name: "The Assistant",
-    description:
-      "Built on the MERN stack the assistant helps with daily planning, creating checklist and also taking notes.",
-    techologiesUsed: [
-      "ReactJS",
-      "React router",
-      "Redux",
-      "ExpressJS",
-      "MongoDB",
-      "PassportJS",
+    heading: "Unacademy",
+    subheading: "Software engineer working primarily on the in-house CRM",
+    icon: <img src={unacademyLogo} alt="Unacademy" style={imageStyle} />,
+    timeline: "Oct 2021 - Present",
+    points: [
+      "Currently working as a part of Unacademy’s Growth and Revenue vertical.",
+      "Architected and Built the UI for the in-house CRM of Unacademy from scratch.",
+      "Owned and delivered various features like Interactive table,Advanced query generator, Power-calling, Sales tracker etc that helped improve user productivity.",
+      "The power-calling feature helped in reducing the time taken between calls which improved the calling rate by 25%.",
+      "Implemented various performance and UX enhancements which were paramount in improving the user satisfaction score by 70% from release.",
+      "Ensured code quality was maintained in the repository with a strict code review process.",
+      "Technologies used: NextJS, MaterialUI, EmotionUI, Zustand, SWR",
     ],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618395386/Portfolio/The_assistant_ysqjkh.jpg",
-    github: "https://github.com/KumaranSahi/the-assistant",
-    live: "https://theassistantapp.herokuapp.com/",
-  },
-  {
-    name: "Banana Speak",
-    description: "Learn the languge of the minions with banana speak.",
-    techologiesUsed: ["HTMl", "CSS", "Javascript"],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618395631/Portfolio/Banana_f4dts9.jpg",
-    github: "https://github.com/KumaranSahi/Banana-Speak",
-    live: "banana-speak.netlify.app/",
-  },
-  {
-    name: "The Dragon Translator",
-    description: "Simplifying the communication with you and your dragon.",
-    techologiesUsed: ["HTMl", "CSS", "Javascript"],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618395807/Portfolio/Dragon_irgouv.jpg",
-    github: "https://the-dragon-translator.netlify.app/",
-    live: "https://github.com/KumaranSahi/High-valyrian",
-  },
-  {
-    name: "Emojis",
-    description: "Decrypt your emojis here!",
-    techologiesUsed: ["React hooks", "Axios"],
-    image:
-      "https://res.cloudinary.com/docpuxue8/image/upload/v1618396163/Portfolio/emoji_ouprft.jpg",
-    github: "https://github.com/KumaranSahi/Emoji-translator",
-    live: "https://csb-345rh.netlify.app/",
   },
 ];

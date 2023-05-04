@@ -32,7 +32,7 @@ const desktopNavMenu = () => {
             isActive ? classes["active-desktop"] : ""
           }
         >
-          Work experience
+          Experience
         </NavLink>
       </li>
       <li className={classes["nav-button"]}>
