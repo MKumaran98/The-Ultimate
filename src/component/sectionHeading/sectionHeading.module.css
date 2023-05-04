@@ -1,27 +1,27 @@
-.section-heading{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color:white
+.section-heading {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
 }
 
-.heading-line{
-    width: 90%;
-    border:1px solid white;
+.heading-line {
+  width: 90%;
+  border: 1px solid white;
 }
 
-.section-heading-text{
-    margin: 0px;
-    padding: 0px;
+.section-heading-text {
+  margin: 0px;
+  padding: 0px;
 }
 
-@media (max-width:700px){
-    .section-heading{
-        width: 100%;
-    }
-    .heading-line{
-        display: none;
-    }
+@media (max-width: 700px) {
+  .section-heading {
+    width: 100%;
+  }
+  .heading-line {
+    display: none;
+  }
 }

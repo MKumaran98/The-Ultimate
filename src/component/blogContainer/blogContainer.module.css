@@ -1,50 +1,49 @@
 .card {
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    border-radius:0.5rem;
-    margin: 1.25rem;
-    width: 20rem;
-    height: 25rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  margin: 1.25rem;
+  width: 20rem;
+  height: 25rem;
 }
-  
+
 .card-image {
-    width: 100%;
-    height: 10rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+  width: 100%;
+  height: 10rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .card-title h4 {
-    color: rgb(100, 100, 100);
-    letter-spacing: 2px;
+  color: rgb(100, 100, 100);
+  letter-spacing: 2px;
 }
 
 .card-content {
-    padding: 1.8rem;
+  padding: 1.8rem;
 }
 
 .blog-icon-container {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.read-more-text{
-    cursor: pointer;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
+.read-more-text {
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
 }
 
-.read-more-text:hover{
-    color: var(--primary);
+.read-more-text:hover {
+  color: var(--primary);
 }
 
 @media (max-width: 700px) {
-    .card {
-        margin: 22px;
-        width: 85%;
-      }
-
+  .card {
+    margin: 22px;
+    width: 85%;
+  }
 }
