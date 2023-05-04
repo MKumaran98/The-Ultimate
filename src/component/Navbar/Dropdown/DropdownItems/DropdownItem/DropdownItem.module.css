@@ -1,0 +1,8 @@
+.menu-item a {
+  font-size: larger;
+  width: 100%;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+}

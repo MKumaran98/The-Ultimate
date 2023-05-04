@@ -1,0 +1,10 @@
+.dropdown-list {
+  list-style: none;
+  height: 50%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 0px;
+}
